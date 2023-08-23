@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+.tagSelect .MuiInputBase-root {
+  padding: 0.5rem !important;
+}
+
+.tagSelect input {
+  font-size: 14px !important;
+  padding: 0 !important;
+}
+
+.statusSelect .MuiSelect-select {
+  padding: 0.5rem;
+}
+
+.name-buttons div {
+  visibility: hidden;
+}
+
+.name-buttons:hover div {
+  visibility: visible;
+}
